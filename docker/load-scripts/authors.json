@@ -1,0 +1,32 @@
+[
+    {
+        "id": "68882d10-e192-4095-847f-afb76961a7e3",
+        "name": "Donald",
+        "surname": "de Marco",
+        "country": "US",
+        "photoId": "28f36f91-5f6d-4b9a-b7cc-ff9531def3c7",
+        "birthDate": "20001015",
+        "deathDate": "20001015",
+        "biography": "Donald de Marco nació en EEUU"
+    },
+    {
+        "id": "f685b7d2-3bb3-483e-81b0-94d4e98a6870",
+        "name": "Benjamin D.",
+        "surname": "Wiker",
+        "country": "US",
+        "photoId": "3282ac6f-748c-44d9-aeda-65f3c26c925e",
+        "birthDate": "20001015",
+        "deathDate": "20001015",
+        "biography": "Wiker nació en EEUU"
+    },
+    {
+        "id": "b9e312a6-20d5-43e2-82c1-ba2362fc194d",
+        "name": "Camilo José",
+        "surname": "Cela",
+        "country": "ES",
+        "photoId": "c954a41e-f3d9-44c2-88f4-708f6e86da44",
+        "birthDate": "20001015",
+        "deathDate": "20001015",
+        "biography": "Cela nació en España y va a hablar de su libro"
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "bookId": "68f59d9d-a354-4cbc-909f-7b18bf6b70de",
+        "title": "Architects of the culture of Death",
+        "authors": [
+            "68882d10-e192-4095-847f-afb76961a7e3",
+            "f685b7d2-3bb3-483e-81b0-94d4e98a6870"
+        ],
+        "year": "2002",
+        "edition": {
+            "title": "Arquitectos de la cultura de la muerte",
+            "language": "Spanish",
+            "editorial": "Ciudadela Libros",
+            "isbn": "978-84-96836-04-4",
+            "year": "2007"
+        }
+    },
+    {
+        "bookId": "4bb1bfb8-521e-46f9-82bd-179ec797d1ca",
+        "title": "La familia de Pascual Duarte",
+        "authors": [
+            "b9e312a6-20d5-43e2-82c1-ba2362fc194d"
+        ],
+        "year": "1942",
+        "edition": {
+            "title": "La familia de Pascual Duarte",
+            "language": "Spanish",
+            "editorial": "Círculo de lectores SA",
+            "isbn": "84-226-0245-8",
+            "year": "1977"
+        }
+    }
+]

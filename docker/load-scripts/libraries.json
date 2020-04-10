@@ -1,0 +1,26 @@
+[
+    {
+        "id": "d129522d-6a7e-4b03-95c8-a00bd340a0d1",
+        "propertyName": "4A",
+        "contactName": "James",
+        "books": [
+            {
+                "bookId": "68f59d9d-a354-4cbc-909f-7b18bf6b70de",
+                "possibleActions": [
+                    "CHANGE",
+                    "LENDING",
+                    "GIVE AWAY"
+                ],
+                "available": false
+            },
+            {
+                "bookId": "4bb1bfb8-521e-46f9-82bd-179ec797d1ca",
+                "possibleActions": [
+                    "TEMPORARY CHANGE",
+                    "GIVE AWAY"
+                ],
+                "available": true
+            }
+        ]
+    }
+]
