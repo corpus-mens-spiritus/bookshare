@@ -1,5 +1,6 @@
 package org.bookshare.api.model;
 
+import lombok.Builder;
 import lombok.Data;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -10,6 +11,7 @@ import java.util.UUID;
 
 @Document(collection = "libraries")
 @Data
+@Builder
 public class Library {
     @Id
     private String id;
