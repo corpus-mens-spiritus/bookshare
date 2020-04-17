@@ -60,8 +60,28 @@ paths:
       responses:
         200:
           description: "Success"
+        405:
+          description: "Invalid input"
+    delete:
+      tags:
+        - "book"
+      summary: "Deletes a book of the library"
+      description: ""
+      operationId: "deleteBook"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "body"
+          description: "Data of the book to be modified"
+          required: true
           schema:
-            $ref: "#/definitions/BookCreationResponse"
+            $ref: "#/definitions/BookCreationRequest"
+      responses:
+        200:
+          description: "Success"
         405:
           description: "Invalid input"
   /books:
@@ -144,8 +164,26 @@ definitions:
   BookCreationRequest:
     type: "object"
     properties:
-      id:
+      libraryId:
         type: "string"
+      title:
+        type: "string"
+      authors:
+        type: "array"
+        items:
+          type: "string"
+      year:
+        type: "string"
+      synopsis:
+        type: "string"
+      image:
+        type: "string"
+      edition:
+        $ref: "#/definitions/Edition"
+      permissions:
+        type: "array"
+        items:
+          type: "string"
 
   BookCreationResponse:
     type: "object"
@@ -185,6 +223,20 @@ definitions:
     type: "object"
     properties:
       id:
+        type: "string"
+
+  Edition:
+    type: "object"
+    properties:
+      title:
+        type: "string"
+      language:
+        type: "string"
+      editorial:
+        type: "string"
+      isbn:
+        type: "string"
+      year:
         type: "string"
 
   Location:
