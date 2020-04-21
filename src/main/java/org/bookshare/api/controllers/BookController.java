@@ -1,6 +1,6 @@
 package org.bookshare.api.controllers;
 
-import org.bookshare.api.model.requests.BookAdditionRequest;
+import org.bookshare.api.model.Book;
 import org.bookshare.api.model.responses.BookAdditionResponse;
 import org.bookshare.api.services.BooksService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,9 +21,9 @@ public class BookController {
     private BooksService booksService;
 
     @PostMapping
-    public ResponseEntity addBookToLibrary(@RequestBody BookAdditionRequest body) {
+    public ResponseEntity addBookToLibrary(@RequestBody Book book) {
 
-        UUID bookId = booksService.addBookToLibrary(body);
+        UUID bookId = booksService.addBookToLibrary(book);
 
         BookAdditionResponse response = BookAdditionResponse.builder()
                 .bookId(bookId)
